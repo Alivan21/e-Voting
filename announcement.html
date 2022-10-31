@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Voting</title>
+    <link rel="shortcut icon" href="assets/img/web-icon.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet" />
+    <!-- Link Css -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <ul class="navbar">
+        <li><a href="index.html" class="btn">Home</a></li>
+        <li><a href="candidate.html" class="btn">Candidate</a></li>
+        <li><a href="announcement.html" class="btn active">Announcement</a></li>
+        <li><a href="data.html" class="btn">Vote</a></li>
+      </ul>
+    </header>
+    <main class="container">
+      <div class="text-center candidate-head">
+        <h1 class="margin-0">Pengumuman Ketua & Wakil Organisasi</h1>
+        <h1 class="margin-0">Periode 2022/2023</h1>
+      </div>
+      <div class="container-vote-2">
+        <div class="text-center my-3">
+          <h2 class="margin-0 candidate-head">Pemenang :</h2>
+          <h2 class="margin-0 candidate-sub-head">Kandidat <span id="pemenang">-</span></h2>
+        </div>
+        <img src="assets/img/wait-hero.png" alt="" class="vote-img my-3" id="wait-1" />
+        <h2 class="candidate-sub-head mt-5" id="wait-2">Masih menunggu hasil</h2>
+        <div class="vote-1 my-3">
+          <div class="candidate-1-vote">
+            <img src="" alt="" class="vote-img" id="img-win-1" />
+          </div>
+          <div class="candidate-2-vote">
+            <img src="" alt="" class="vote-img" id="img-win-2" />
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-5">
+        <h2 class="margin-0">Hasil Suara</h2>
+        <h3 class="text-vote">No 1 : <span id="hasil-vote-1">0</span> suara</h3>
+        <h3 class="text-vote">No 2 : <span id="hasil-vote-2">0</span> suara</h3>
+      </div>
+    </main>
+    <footer>
+      <p>E-Voting Apps &#169; 2022</p>
+      <p>Alivan Corp</p>
+    </footer>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
